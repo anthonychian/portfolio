@@ -1,6 +1,11 @@
 .card-title {
     font-size: 2.5em;
 }
+@media only screen and (max-width: 600px) {
+    .card-title {
+        font-size: 2em;
+    }
+}
 .card-img-top {
     width: 80px;
     height: 80px;
