@@ -7,6 +7,13 @@
   width: 300px; height: 420px; object-fit: cover;
   
 }
+@media only screen and (max-width: 600px) {
+  .profile {
+    max-width: 18em;
+    width: 235px; height: 235px; object-fit: cover;
+    object-position: 0% 35%;
+  }
+}
 .btn {
   transition: transform 0.2s ease-out;
 }

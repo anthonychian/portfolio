@@ -17,13 +17,13 @@ const About = () => {
                     <Row className="pt-3 pb-5 align-items-center">
                         {/* Profile Pic */}
                         <Col xs={12} md={6}>
-                            <Row className="justify-content-center mb-2 mr-2">
-                                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                            <Row className="justify-content-center mb-2">
+                                <Image className="pd-3 profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
                             </Row>
                         </Col>
                         {/* Description */}
                         <Col xs={12} md={6}>
-                            <Row className=" align-items-start p-2 my-details rounded">
+                            <Row className=" align-items-start p-3 my-details rounded">
                                 Hello! I'm Anthony, a recent Computer Science graduate student from UCSC.
                                 I enjoy creating projects on the web as well as developing interesting applications. 
                                 My goal is to create meaningful projects that focus on user experience.

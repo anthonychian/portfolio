@@ -7,7 +7,7 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -3em;
   text-align: center;
   strong {
     font-size: 1.4em;
@@ -17,12 +17,22 @@ const MyTitleMessage = styled.h1`
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 300;
     letter-spacing: 7px;
+    
     .main {
-      font-size: 55px;
+      font-size: 1.3em;
     }
     .sub {
-      font-size: 32px;
+      font-size: .8em;
       letter-spacing: 2px;
+    }
+    @media only screen and (max-width: 600px) {
+      .main {
+        font-size: 1em;
+      }
+      .sub {
+        font-size: .5em;
+        letter-spacing: 2px;
+      }
     }
   }
 `;
