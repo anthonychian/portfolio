@@ -1,0 +1,19 @@
+.card-title {
+    font-size: 2.5em;
+}
+.card-img-top {
+    width: 80px;
+    height: 80px;
+}
+.skills-font {
+    color: #ffffff;
+}
+.focus {
+    margin-top: 25px;
+    transition: transform 0.2s ease-out;
+    padding: auto;
+}
+
+.focus:hover {
+    transform: scale(1.05);
+}

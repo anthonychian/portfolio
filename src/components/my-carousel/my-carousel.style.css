@@ -1,0 +1,18 @@
+.slide1-img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 100%;
+  filter: brightness(45%);
+}
+.slide2-img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% -35%;
+  filter: brightness(40%);
+}
+.slide3-img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  filter: brightness(60%);
+}
