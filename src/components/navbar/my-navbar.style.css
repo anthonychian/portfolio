@@ -1,7 +1,13 @@
 .logo {
     width: 25%;
 }
-  
+.navName {
+  font-size: 20px;
+}
+.navTitle {
+  font-size: 12px;
+}
+
 .nav-theme {
   background-color: #101018f8;
   font-size: 20px;

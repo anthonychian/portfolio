@@ -7,7 +7,14 @@ const MyNavbar = () => {
     return(
         <>
         <Navbar fixed="top" collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
-            <Navbar.Brand href="#home">Anthony Chian</Navbar.Brand>
+            <Navbar.Brand href="#home">
+                <div className="navName">
+                    Anthony Chian
+                </div>
+                <div className="navTitle">
+                    Web/Software Developer
+                </div>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
