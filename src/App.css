@@ -20,8 +20,12 @@ hr {
   z-index: 1;
 }
 .about-section {
- 
+  background-color: #101018f8;
 }
 .skills-section {
   background-color: #101018f8;
+}
+.projects-section  {
+  background-color: #101018f8;
+  
 }

@@ -33,12 +33,7 @@ const About = () => {
                                 <Col className="d-flex justify-content-center flex-wrap">
                                     <div className="btn">
                                         <a href="#contact">
-                                            <Button className="m-2" variant="outline-primary">Contact</Button>
-                                        </a>
-                                    </div>
-                                    <div className="btn">
-                                        <a href="#contact">
-                                            <Button className="m-2" variant="outline-success">Resume</Button>
+                                            <Button className="m-2" variant="outline-primary">Resume</Button>
                                         </a>
                                     </div>
                                     <div className="btn">

@@ -1,0 +1,16 @@
+.slide1-img {
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 100%;
+  filter: brightness(1); 
+}
+.slide2-img {
+  height: auto;
+  object-fit: cover;
+  object-position: 50% -35%;
+  filter: brightness(1);
+}
+
+.project1caption {
+  color: white;
+}

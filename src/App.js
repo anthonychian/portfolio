@@ -12,6 +12,7 @@ import ParallaxImage from "./assets/img/parallax/parallax1.webp"
 
 import './App.css';
 import Skills from './pages/skills/skills.component';
+import Projects from './pages/projects/projects.component';
 
 const App = () => {
   return ( 
@@ -32,6 +33,13 @@ const App = () => {
             <Container className="container-box rounded">
               <Fade duration={2000}>
                 <Skills/>
+              </Fade>
+            </Container>
+          </div>
+          <div className="projects-section">
+            <Container className="container-box rounded">
+              <Fade duration={2000}>
+                <Projects/>
               </Fade>
             </Container>
           </div>
