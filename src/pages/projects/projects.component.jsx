@@ -16,12 +16,15 @@ const Projects = () => {
             
             <div className="pt-5 projects">
                 <h1 className="pt-5 pb-5 text-center projects-font pb-4">Projects</h1>
+                {/* <h2 className="pt-5 text-center projects-font pb-4">Genshin Impact Website</h2> */}
                 <Project1Carousel/>
-                <h2 className="pt-5 text-center projects-font pb-4">Genshin Impact Website</h2>
+                <p className="pt-3 text-center">A fan-made website for Genshin Impact. Features characters, skills, and items from the game.
+                This website uses the api <a href="https://genshin.dev/"> genshin.dev </a>
+                </p>
                 <div className="pb-5 projectbuttons">
                     <div className="btn">
                         <a href="https://github.com/anthonychian/genshin" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-dark">Github</Button>
+                            <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
                     <div className="btn">
@@ -31,11 +34,12 @@ const Projects = () => {
                     </div>
                 </div>
                 <Project2Carousel/>
-                <h2 className="pt-5 text-center projects-font pb-4">Blog Website</h2>
+                {/* <h2 className="pt-5 text-center projects-font pb-4">Blog Website</h2> */}
+                <p className="pt-3 text-center">A blog website where users can create, edit, delete, like and display their blog posts. Features built in user authenticaiton. </p>
                 <div className="pb-5 projectbuttons">
                     <div className="btn">
                         <a href="https://github.com/anthonychian/blog" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-dark">Github</Button>
+                            <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
                 </div>

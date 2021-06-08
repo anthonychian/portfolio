@@ -1,31 +1,31 @@
 .slide1-img {
   height: auto;
   object-fit: cover;
-  object-position: 50% 100%;
   filter: brightness(90%);
 }
 .slide2-img {
   height: auto;
   object-fit: cover;
-  object-position: 50% -35%;
   filter: brightness(90%);
 }
 .slide3-img {
   height: auto;
   object-fit: cover;
-  object-position: 50% -35%;
   filter: brightness(90%);
 }
 .slide4-img {
   height: auto;
   object-fit: cover;
-  object-position: 50% -35%;
   filter: brightness(90%);
 }
 .slide5-img {
   height: auto;
   object-fit: cover;
-  object-position: 50% -35%;
+  filter: brightness(90%);
+}
+.slide6-img {
+  height: auto;
+  object-fit: cover;
   filter: brightness(90%);
 }
 

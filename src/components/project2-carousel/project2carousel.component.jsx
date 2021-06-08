@@ -5,6 +5,7 @@ import Project2_2 from "../../assets/img/projects/picture/blog2.jpg";
 import Project2_3 from "../../assets/img/projects/picture/blog3.jpg";
 import Project2_4 from "../../assets/img/projects/picture/blog4.jpg";
 import Project2_5 from "../../assets/img/projects/picture/blog5.jpg";
+import Project2_6 from "../../assets/img/projects/picture/blog6.jpg";
 
 import "./project2carousel.style.css"
 
@@ -12,7 +13,7 @@ import "./project2carousel.style.css"
 const Project2Carousel = () => {
     return (
         <div id="project2">
-          <Carousel controls={false} indicators interval={2500} pause={false}>
+          <Carousel controls={false} indicators interval={3500} pause={false}>
             <Carousel.Item>
                 <img
                 className="d-block w-100 slide1-img"
@@ -27,9 +28,21 @@ const Project2Carousel = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
+                className="d-block w-100 slide4-img"
+                src={Project2_4}
+                alt="Second slide"
+                />
+                <Carousel.Caption>
+                    <div className="project2caption">
+                        My Blog Posts
+                    </div>
+                </Carousel.Caption>    
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
                 className="d-block w-100 slide2-img"
                 src={Project2_2}
-                alt="Second slide"
+                alt="Third slide"
                 /> 
                 <Carousel.Caption>
                     <div className="project2caption">
@@ -45,19 +58,7 @@ const Project2Carousel = () => {
                 />
                 <Carousel.Caption>
                     <div className="project2caption">
-                        My Blog Posts
-                    </div>
-                </Carousel.Caption>    
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block w-100 slide4-img"
-                src={Project2_4}
-                alt="Fourth slide"
-                />
-                <Carousel.Caption>
-                    <div className="project2caption">
-                        Registration Page
+                        View Blog Post
                     </div>
                 </Carousel.Caption>    
             </Carousel.Item>
@@ -66,6 +67,18 @@ const Project2Carousel = () => {
                 className="d-block w-100 slide5-img"
                 src={Project2_5}
                 alt="Fifth slide"
+                />
+                <Carousel.Caption>
+                    <div className="project2caption">
+                    Registration Page
+                    </div>
+                </Carousel.Caption>    
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100 slide6-img"
+                src={Project2_6}
+                alt="Sixth slide"
                 />
                 <Carousel.Caption>
                     <div className="project2caption">
