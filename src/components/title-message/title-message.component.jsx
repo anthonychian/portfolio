@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect';
 
 const MyTitleMessage = styled.h1`
   position: absolute;
-  width: 100%;
-  top: 50%;
+  width: 100vw;
+  top: 12em;
   z-index: 1;
   margin-top: -5em;
   text-align: center;
@@ -25,6 +25,12 @@ const MyTitleMessage = styled.h1`
       font-size: clamp(0.3em, 4vw, 1em);
       letter-spacing: 2px;
     }
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: -9.5em;
+  }
+  @media only screen and (max-width: 600px) {
+    margin-top: -9.5em;
   }
 `;
 
