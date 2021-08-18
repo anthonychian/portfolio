@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Profile from "../../assets/img/profile/profile2.jpg";
+import Profile from "../../assets/img/profile/profile3.jpg";
 import Button from 'react-bootstrap/Button';
 
 import "./about.style.css";
@@ -31,11 +31,11 @@ const About = () => {
                                 I'm currently looking for job opportunities in Front End, Back End and Full Stack Development.
                                 <br /><br />
                                 <Col className="d-flex justify-content-center flex-wrap">
-                                    <div className="btn">
+                                    {/* <div className="btn">
                                         <a href="#contact">
                                             <Button className="m-2" variant="outline-success">Resume</Button>
                                         </a>
-                                    </div>
+                                    </div> */}
                                     <div className="btn">
                                         <a href="https://github.com/anthonychian" target="_blank" rel="noopener noreferrer">
                                             <Button className="m-2" variant="outline-primary">Github</Button>

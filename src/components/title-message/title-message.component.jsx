@@ -5,9 +5,9 @@ import Typewriter from 'typewriter-effect';
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 50%;
   z-index: 1;
-  margin-top: -3em;
+  margin-top: -5em;
   text-align: center;
   strong {
     font-size: 1.4em;
@@ -19,20 +19,11 @@ const MyTitleMessage = styled.h1`
     letter-spacing: 7px;
     
     .main {
-      font-size: 1.3em;
+      font-size: clamp(0.5em, 5vw, 1.3em);
     }
     .sub {
-      font-size: .8em;
+      font-size: clamp(0.3em, 4vw, 1em);
       letter-spacing: 2px;
-    }
-    @media only screen and (max-width: 600px) {
-      .main {
-        font-size: 1em;
-      }
-      .sub {
-        font-size: .5em;
-        letter-spacing: 2px;
-      }
     }
   }
 `;
