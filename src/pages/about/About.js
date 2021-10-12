@@ -5,10 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Profile from "../../assets/img/profile/profile3.jpg";
 import Button from 'react-bootstrap/Button';
+import ModalImage from "react-modal-image";
+
 
 import "./about.style.css";
 
-const About = () => {
+export default function About() {
     return (
         <div id="about">
             <div className="pt-5 aboutSection">
@@ -18,7 +20,15 @@ const About = () => {
                         {/* Profile Pic */}
                         <Col xs={12} md={6}>
                             <Row className="justify-content-center mb-2">
-                                <Image className="pd-3 profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                                <ModalImage
+                                    small={Profile}
+                                    large={Profile}
+                                    alt={''}
+                                    hideDownload={true}
+                                    hideZoom={true}
+                                    className="pd-3 profile justify-content-end"
+                                    
+                                />
                             </Row>
                         </Col>
                         {/* Description */}
@@ -55,5 +65,3 @@ const About = () => {
         </div>
     );
 };
-
-export default About

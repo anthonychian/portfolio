@@ -3,38 +3,43 @@ import styled from "styled-components";
 import Typewriter from 'typewriter-effect';
 
 const MyTitleMessage = styled.h1`
+  height: 100%;
+  width: 100%;
   position: absolute;
-  width: 100vw;
-  top: 12em;
-  z-index: 1;
-  margin-top: -5em;
-  text-align: center;
+
+  z-index: 1; 
   strong {
     font-size: 1.4em;
+  }
+  .titleMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   div {
     color: #66fcf1;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 300;
-    letter-spacing: 7px;
-    
+    letter-spacing: 10px;
     .main {
-      font-size: clamp(0.5em, 5vw, 1.3em);
+      font-size: clamp(0.7em, 5vw, 1.3em);
+      letter-spacing: 7px;
     }
     .sub {
-      font-size: clamp(0.3em, 4vw, 1em);
-      letter-spacing: 2px;
+      font-size: clamp(0.5em, 4vw, 1em);
+      letter-spacing: 3px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      letter-spacing: 3px;
     }
   }
-  @media only screen and (max-width: 768px) {
-    margin-top: -9.5em;
-  }
-  @media only screen and (max-width: 600px) {
-    margin-top: -9.5em;
-  }
+  
 `;
 
-const TitleMessage = () => {
+
+export default function TitleMessage() {
     return (
         <MyTitleMessage>
             <div className="titleMessage">
@@ -45,7 +50,7 @@ const TitleMessage = () => {
                             <strong>Anthony Chian</strong>
                         </span>
                     </div>
-                    <div className="sub">
+                    <div className="sub text-center ">
                         <Typewriter
                             options={{
                                 strings: ['Web Developer', 'Experienced in Full Stack', 'UCSC Class of 2020'],
@@ -60,5 +65,3 @@ const TitleMessage = () => {
         </MyTitleMessage>
     )
 }
-
-export default TitleMessage

@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import TitleMessage from "../TitleMessage";
 import Slide1 from '../../assets/img/carousel/slide1.jpg'
 import Slide2 from '../../assets/img/carousel/slide2.jpg'
 import Slide3 from '../../assets/img/carousel/slide3.jpg'
@@ -7,9 +8,10 @@ import Slide3 from '../../assets/img/carousel/slide3.jpg'
 import "./my-carousel.style.css"
 
 
-const MyCarousel = () => {
+export default function MyCarousel() {
     return (
         <div id="home">
+            <TitleMessage/>
           <Carousel controls={false} indicators interval={2500} pause={false}>
             <Carousel.Item>
                 <img
@@ -36,5 +38,3 @@ const MyCarousel = () => {
         </div>
     );
 }
-
-export default MyCarousel
