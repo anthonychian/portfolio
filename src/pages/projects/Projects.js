@@ -11,7 +11,7 @@ import styled from "styled-components";
 import './projects.style.css'
 
 const MyTitle = styled.div`
-    font-size: 2em;
+    font-size: 2.5em;
     display: flex;
     justify-content: center;
     align-items: center;

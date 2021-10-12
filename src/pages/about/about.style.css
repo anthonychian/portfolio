@@ -18,6 +18,12 @@
     object-position: 0% 35%;
   }
 }
+@media only screen and (max-width: 850px) {
+  .about {
+    padding-bottom: 10em;
+    height: 100%;
+  }
+}
 .btn {
   transition: transform 0.2s ease-out;
 }
