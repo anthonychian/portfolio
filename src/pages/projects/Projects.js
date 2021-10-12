@@ -6,19 +6,31 @@ import Button from 'react-bootstrap/Button';
 import Project1Carousel from '../../components/Project1Carousel';
 import Project2Carousel from '../../components/Project2Carousel';
 import Project3Carousel from '../../components/Project3Carousel';
-
+import styled from "styled-components";
 
 import './projects.style.css'
 
+const MyTitle = styled.div`
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66fcf1;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-bottom: 2em;
+`;
 
 export default function Projects() {
 
     return (
-        <div id='projects'>
+        <div id='projects' className="projects">
             
             <div className="pt-5 projects">
-                <h1 className="pt-5 pb-5 text-center projects-font pb-4">Projects</h1>
-                {/* <h2 className="pt-5 text-center projects-font pb-4">Genshin Impact Website</h2> */}
+                <MyTitle>
+                    Projects
+                </MyTitle>
                 <Project3Carousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
                     A music visualizer website made with React and the <a href="https://developer.spotify.com/documentation/web-api/"> Spotify API </a>

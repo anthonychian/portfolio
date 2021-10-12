@@ -2,19 +2,33 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import Profile from "../../assets/img/profile/profile3.jpg";
 import Button from 'react-bootstrap/Button';
 import ModalImage from "react-modal-image";
-
+import styled from "styled-components";
 
 import "./about.style.css";
 
+const MyTitle = styled.div`
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66fcf1;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-bottom: 2em;
+    padding-top: 1em;
+`;
+
 export default function About() {
     return (
-        <div id="about">
+        <div id="about" className="about">
             <div className="pt-5 aboutSection">
-                <h1 className="pt-5 text-center font-details pb-5">About Me</h1>
+                <MyTitle>
+                    About Me
+                </MyTitle>
                 <Container className="pb-5">
                     <Row className="pt-3 pb-5 align-items-center">
                         {/* Profile Pic */}
@@ -38,7 +52,8 @@ export default function About() {
                                 I enjoy creating projects on the web as well as developing interesting applications. 
                                 My goal is to create meaningful projects that focus on user experience.
                                 <br /><br />
-                                I'm currently looking for job opportunities in Front End, Back End and Full Stack Development.
+                                I'm currently looking for job opportunities in
+                                Front End, Back End and Full Stack.
                                 <br /><br />
                                 <Col className="d-flex justify-content-center flex-wrap">
                                     {/* <div className="btn">

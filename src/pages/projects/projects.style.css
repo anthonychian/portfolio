@@ -1,5 +1,6 @@
 .projects {
     color: white;
+    height: 100%;
 }
 .projectbuttons {
     display:flex;

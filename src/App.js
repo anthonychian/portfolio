@@ -4,8 +4,8 @@ import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container'
 
 // components 
-import MyNavbar from "./components/navbar/MyNavbar";
-import MyCarousel from "./components/my-carousel/MyCarousel";
+import MyNavbar from "./components/MyNavbar";
+import MyCarousel from "./components/MyCarousel";
 import About from "./pages/about/About.js";
 
 import './App.css';
