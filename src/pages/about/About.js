@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Profile from "../../assets/img/profile/profile3.jpg";
+import Profile from "../../assets/img/profile/profile1.jpg";
 import Button from 'react-bootstrap/Button';
 import ModalImage from "react-modal-image";
 import styled from "styled-components";

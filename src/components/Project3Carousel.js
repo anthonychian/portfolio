@@ -3,8 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import Image1 from "../assets/img/projects/picture/spotify1.jpg";
 import Image2 from "../assets/img/projects/picture/spotify2.jpg";
 import Image3 from "../assets/img/projects/picture/spotify3.jpg";
-import Image4 from "../assets/img/projects/picture/spotify5.jpg";
-import Image5 from "../assets/img/projects/picture/spotify4.jpg";
+import Image4 from "../assets/img/projects/picture/spotify4.jpg";
 
 import { makeStyles } from '@mui/styles';
 
@@ -42,10 +41,6 @@ export default function Project3Carousel() {
         },
         {
             image: Image4,
-            caption: 'Playlist selection',
-        },
-        {
-            image: Image5,
             caption: 'Song selection',
         },
     ]
