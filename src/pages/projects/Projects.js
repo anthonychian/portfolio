@@ -33,9 +33,9 @@ export default function Projects() {
                 </MyTitle>
                 <Project3Carousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
-                    A music visualizer website made with React and the <a href="https://developer.spotify.com/documentation/web-api/"> Spotify API </a>
-                    . Features user authenticaiton via spotify premium account, displays user playlists, built in music player, dynamic background color and particles,
-                    responsive web design.
+                    A music visualizer website made with React, the <a href="https://developer.spotify.com/documentation/web-api/"> Spotify API </a>
+                    , and the <a href="https://docs.genius.com/"> Genius API </a>. Features user authenticaiton via spotify premium account, built in music player that plays tracks with corresponding lyrics for each song, displays user playlists, dynamic background color and particles,
+                    responsive web design that includes mobile view.
                 </div>
                 <div className="pb-5 projectbuttons">
                     <div className="btn">

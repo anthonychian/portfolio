@@ -4,6 +4,9 @@ import Image1 from "../assets/img/projects/picture/spotify1.jpg";
 import Image2 from "../assets/img/projects/picture/spotify2.jpg";
 import Image3 from "../assets/img/projects/picture/spotify3.jpg";
 import Image4 from "../assets/img/projects/picture/spotify4.jpg";
+import Image5 from "../assets/img/projects/picture/spotify5.jpg";
+import Image6 from "../assets/img/projects/picture/spotify6.jpg";
+import Image7 from "../assets/img/projects/picture/spotify7.jpg";
 
 import { makeStyles } from '@mui/styles';
 
@@ -33,14 +36,26 @@ export default function Project3Carousel() {
         },
         {
             image: Image2,
-            caption: 'Dynamic background color',
+            caption: 'Lyrics display view',
         },
         {
             image: Image3,
-            caption: '',
+            caption: 'Dynamic background color',
         },
         {
             image: Image4,
+            caption: 'Song selection',
+        },
+        {
+            image: Image5,
+            caption: 'Settings and bottom song bar',
+        },
+        {
+            image: Image6,
+            caption: 'Playlist selection',
+        },
+        {
+            image: Image7,
             caption: 'Song selection',
         },
     ]
