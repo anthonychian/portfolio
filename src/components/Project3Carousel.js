@@ -44,7 +44,7 @@ export default function Project3Carousel() {
         },
         {
             image: Image4,
-            caption: 'Song selection',
+            caption: '',
         },
         {
             image: Image5,
