@@ -1,6 +1,4 @@
 import React from 'react'
-// import Card from "react-bootstrap/Card";
-// import CardColumns from 'react-bootstrap/CardColumns';
 import Button from 'react-bootstrap/Button';
 
 import Project1Carousel from '../../components/Project1Carousel';
@@ -26,7 +24,7 @@ const MyTitle = styled.div`
 export default function Projects() {
 
     return (
-        <div id='projects' className="projects">
+        <div id='projects' className="pt-4 projects">
             
             <div className="pt-5 projects">
                 <MyTitle>

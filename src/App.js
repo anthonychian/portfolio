@@ -22,23 +22,16 @@ const App = () => {
         <Parallax blur={{ min: -30, max: 30 }} bgImage="" bgImageAlt="" strength={-200}>
           <div className="about-section">
             <Container className="container-box rounded">
-              <Fade duration={2000}>
+              {/* <Fade duration={2000}> */}
                 <About/>
-              </Fade>
+              {/* </Fade> */}
             </Container>
           </div>
-          {/* <div className="skills-section">
-            <Container className="container-box rounded">
-              <Fade duration={2000}>
-                <Skills/>
-              </Fade>
-            </Container>
-          </div> */}
           <div className="projects-section">
             <Container className="container-box rounded">
-              <Fade duration={2000}>
+              {/* <Fade duration={2000}> */}
                 <Projects/>
-              </Fade>
+              {/* </Fade> */}
             </Container>
           </div>
         </Parallax>

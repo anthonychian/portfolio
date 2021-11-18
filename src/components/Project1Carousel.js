@@ -49,7 +49,7 @@ export default function Project1Carousel() {
         <div>
             <Carousel controls={true} interval={null} pause={false}>
                 {projectData.map((item, idx) => (
-                    <Carousel.Item >
+                    <Carousel.Item key={idx}>
                         <ModalImage
                             small={item.image}
                             large={item.image}
