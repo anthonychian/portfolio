@@ -1,9 +1,11 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import Image1 from "../assets/img/projects/picture/genshin1.jpg";
-import Image2 from "../assets/img/projects/picture/genshin2.jpg";
-import Image3 from "../assets/img/projects/picture/genshin3.jpg";
-import Image4 from "../assets/img/projects/picture/genshin4.jpg";
+import Image1 from "../assets/img/projects/picture/blog1.jpg";
+import Image2 from "../assets/img/projects/picture/blog2.jpg";
+import Image3 from "../assets/img/projects/picture/blog3.jpg";
+import Image4 from "../assets/img/projects/picture/blog4.jpg";
+import Image5 from "../assets/img/projects/picture/blog5.jpg";
+import Image6 from "../assets/img/projects/picture/blog6.jpg";
 
 import { makeStyles } from '@mui/styles';
 import ModalImage from "react-modal-image";
@@ -14,35 +16,40 @@ const useStyles = makeStyles(() => ({
         margin: 'auto',
         height: '500px',
         width: '1000px',
-        objectFit: 'cover'
-    }
+        objectFit: 'cover',
+        filter: 'brightness(70%)',
+      }
 }))
 
-export default function Project1Carousel() {
+export default function BlogCarousel() {
 
     const classes = useStyles()
 
     const projectData = [
         {
             image: Image1,
-            caption: 'Home page',
-            alt: 'First Slide'
+            caption: 'Home page'
         },
         {
             image: Image2,
-            caption: 'Character detail page',
-            alt: 'Second Slide'
+            caption: 'My blog posts'
         },
         {
             image: Image3,
-            caption: 'View character talents',
-            alt: 'Third Slide'
+            caption: 'Create new blog post'
         },
         {
             image: Image4,
-            caption: 'View character weapons (with Tooltip)',
-            alt: 'Fourth Slide'
+            caption: 'View blog post'
         },
+        {
+            image: Image5,
+            caption: 'Registration page'
+        },
+        {
+            image: Image6,
+            caption: 'Login page'
+        }
     ]
 
     return (
@@ -67,6 +74,6 @@ export default function Project1Carousel() {
                 ))}
             </Carousel>
         </div>
+        
     );
 }
-

@@ -21,7 +21,7 @@ const useStyles = makeStyles(() => ({
     }
 }))
 
-export default function Project3Carousel() {
+export default function CoffeeCarousel() {
 
     const classes = useStyles()
 
