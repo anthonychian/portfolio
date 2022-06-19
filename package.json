@@ -3,7 +3,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "engines": {
-    "node": "16.x"
+    "node": "16.13.1"
   },
   "private": true,
   "dependencies": {
