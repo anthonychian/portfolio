@@ -5,7 +5,6 @@ import SpotifyCarousel from '../../components/SpotifyCarousel';
 import GenshinCarousel from '../../components/GenshinCarousel';
 import BlogCarousel from '../../components/BlogCarousel';
 import LostArkCarousel from '../../components/LostArkCarousel';
-import MonsterHunterCarousel from '../../components/MonsterHunterCarousel';
 import CoffeeCarousel from '../../components/CoffeeCarousel';
 import styled from "styled-components";
 
@@ -81,17 +80,6 @@ export default function Projects() {
                 <LostArkCarousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
                     A full stack build simulator for Lost Ark. Features saving and loading builds as well as an authentication system. Made using React, Redux, Firebase, Javascript, Nodejs.
-                </div>
-                <div className="pb-5 projectbuttons">
-                    <div className="btn">
-                        <a href="https://github.com/anthonychian/mhw" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-primary">Github</Button>
-                        </a>
-                    </div>
-                </div>
-                <MonsterHunterCarousel/>
-                <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
-                    Equipment simulator for Monster Hunter World. Features all armor sets, skills and decoration slots. Made with React, Redux, Javascript, Nodejs.
                 </div>
                 <div className="pb-5 projectbuttons">
                     <div className="btn">
