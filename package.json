@@ -2,6 +2,9 @@
   "homepage": "http://anthonychian.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.x"
+  },
   "private": true,
   "dependencies": {
     "@mui/styles": "^5.0.1",
