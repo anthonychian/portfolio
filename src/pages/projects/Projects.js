@@ -72,7 +72,7 @@ export default function Projects() {
                 </div>
                 <div className="pb-5 projectbuttons">
                     <div className="btn">
-                        <a href="https://github.com/anthonychian/blog" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/anthonychian/blogger" target="_blank" rel="noopener noreferrer">
                             <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
