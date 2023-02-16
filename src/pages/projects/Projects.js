@@ -43,11 +43,6 @@ export default function Projects() {
                             <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
-                    {/* <div className="btn">
-                        <a href="https://spotify-api-react-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-primary">Website</Button>
-                        </a>
-                    </div> */}
                 </div>
                 <GenshinCarousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
@@ -60,11 +55,6 @@ export default function Projects() {
                             <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
-                    {/* <div className="btn">
-                        <a href="https://genshin-website.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-primary">Website</Button>
-                        </a>
-                    </div> */}
                 </div>
                 <BlogCarousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
