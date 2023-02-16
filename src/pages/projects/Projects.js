@@ -44,13 +44,6 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="pb-5 projectbuttons">
-                    <div className="btn">
-                        <a href="https://github.com/anthonychian/spotifyapp" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-primary">Github</Button>
-                        </a>
-                    </div>
-                </div>
                 <GenshinCarousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
                     A database website for Genshin Impact. Made using <a href="https://genshin.dev/"> genshin.dev </a> api, React, Javascript Nodejs.
