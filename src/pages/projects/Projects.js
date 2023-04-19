@@ -33,8 +33,8 @@ export default function Projects() {
                 </MyTitle>
                 <SpotifyCarousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
-                    A music visualizer website made with the <a href="https://developer.spotify.com/documentation/web-api/"> Spotify API, React, Javascript, Nodejs </a>
-                    , and the <a href="https://docs.genius.com/"> Genius API </a>. Features user authenticaiton via spotify premium account, built in music player that plays tracks with corresponding lyrics for each song, displays user playlists, dynamic background color and particles,
+                    A music visualizer website made with the <a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a>, React, Javascript, Nodejs 
+                    , and the <a href="https://docs.genius.com/">Genius API</a>. Features user authenticaiton via spotify premium account, built in music player with song lyrics, displays user playlists, dynamic background color and particles,
                     responsive web design that includes mobile view.
                 </div>
                 <div className="pb-5 projectbuttons">
@@ -53,6 +53,13 @@ export default function Projects() {
                     <div className="btn">
                         <a href="https://github.com/anthonychian/genshin" target="_blank" rel="noopener noreferrer">
                             <Button className="m-2" variant="outline-primary">Github</Button>
+                        </a>
+                    </div>
+                </div>
+                <div className="pb-5 projectbuttons">
+                    <div className="btn">
+                        <a href="https://genshin-database.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <Button className="m-2" variant="outline-primary">Website</Button>
                         </a>
                     </div>
                 </div>
@@ -78,6 +85,13 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
+                <div className="pb-5 projectbuttons">
+                    <div className="btn">
+                        <a href="https://lostark-skills.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <Button className="m-2" variant="outline-primary">Website</Button>
+                        </a>
+                    </div>
+                </div>
                 <CoffeeCarousel/>
                 <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
                     Simple landing page for a cafe. Includes menu items, sidebar menu navigation, responsive web design. 
@@ -86,6 +100,13 @@ export default function Projects() {
                     <div className="btn">
                         <a href="https://github.com/anthonychian/coffee" target="_blank" rel="noopener noreferrer">
                             <Button className="m-2" variant="outline-primary">Github</Button>
+                        </a>
+                    </div>
+                </div>
+                <div className="pb-5 projectbuttons">
+                    <div className="btn">
+                        <a href="https://coffee-landingpage.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <Button className="m-2" variant="outline-primary">Website</Button>
                         </a>
                     </div>
                 </div>
