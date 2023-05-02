@@ -55,8 +55,6 @@ export default function Projects() {
                             <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
-                </div>
-                <div className="pb-5 projectbuttons">
                     <div className="btn">
                         <a href="https://genshin-database.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <Button className="m-2" variant="outline-primary">Website</Button>
@@ -84,8 +82,6 @@ export default function Projects() {
                             <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
-                </div>
-                <div className="pb-5 projectbuttons">
                     <div className="btn">
                         <a href="https://lostark-skills.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <Button className="m-2" variant="outline-primary">Website</Button>
@@ -102,8 +98,6 @@ export default function Projects() {
                             <Button className="m-2" variant="outline-primary">Github</Button>
                         </a>
                     </div>
-                </div>
-                <div className="pb-5 projectbuttons">
                     <div className="btn">
                         <a href="https://coffee-landingpage.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <Button className="m-2" variant="outline-primary">Website</Button>
