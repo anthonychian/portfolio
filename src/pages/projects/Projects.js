@@ -88,22 +88,6 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <CoffeeCarousel/>
-                <div style={{ margin: 'auto', width: '80%', padding: '2em 0 1em 0'}}>
-                    Simple landing page for a cafe. Includes menu items, sidebar menu navigation, responsive web design. 
-                </div>
-                <div className="pb-5 projectbuttons">
-                    <div className="btn">
-                        <a href="https://github.com/anthonychian/coffee" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-primary">Github</Button>
-                        </a>
-                    </div>
-                    <div className="btn">
-                        <a href="https://coffee-landingpage.vercel.app/" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-primary">Website</Button>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     )
