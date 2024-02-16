@@ -46,9 +46,10 @@ export default function About() {
             {/* Description */}
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-3 my-details rounded">
-                Hello! I'm Anthony, a Full-Stack Developer and Computer Science
-                graduate student from UCSC. I enjoy web development and creating
-                meaningful applications with clean UI.
+                Hey there! I'm Anthony, a Full-Stack Developer and Computer
+                Science graduate from UCSC. I'm deeply passionate about web
+                development, and I thrive on crafting sophisticated applications
+                with elegant and user-friendly interfaces.
                 <br />
                 <br />
                 I'm currently looking for job opportunities in Front End, Back
