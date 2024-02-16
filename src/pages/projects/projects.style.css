@@ -1,15 +1,58 @@
 .projects {
-    color: white;
-    height: 100%;
+  color: white;
+  height: 100%;
 }
 .projectbuttons {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn {
-    transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 .btn:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.spotifyProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* scroll-snap-align: center; */
+}
+.shadowverseProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.lostarkProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.genshinProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.blogProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
 }

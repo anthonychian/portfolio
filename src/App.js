@@ -1,44 +1,36 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import { Parallax } from 'react-parallax';
-import Container from 'react-bootstrap/Container'
+import React from "react";
+import Container from "react-bootstrap/Container";
 
-// components 
+// components
 import MyNavbar from "./components/MyNavbar";
 import MyCarousel from "./components/MyCarousel";
 import About from "./pages/about/About.js";
 
-import './App.css';
-// import Skills from './pages/skills/skills.component';
-import Projects from './pages/projects/Projects.js';
+import "./App.css";
+import Projects from "./pages/projects/Projects.js";
 
 const App = () => {
-  return ( 
-    <div>
-      <MyNavbar/>
-      <MyCarousel/>
-      
-      <div>
-        <Parallax blur={{ min: -30, max: 30 }} bgImage="" bgImageAlt="" strength={-200}>
-          <div className="about-section">
-            <Container className="container-box rounded">
-              {/* <Fade duration={2000}> */}
-                <About/>
-              {/* </Fade> */}
-            </Container>
-          </div>
-          <div className="projects-section">
-            <Container className="container-box rounded">
-              {/* <Fade duration={2000}> */}
-                <Projects/>
-              {/* </Fade> */}
-            </Container>
-          </div>
-        </Parallax>
-      </div>
-      
-    </div>
-    );
+  return (
+    <>
+      <MyNavbar />
+
+      <section className="home-section">
+        <MyCarousel />
+      </section>
+
+      <section className="about-section">
+        <Container className="container-box rounded">
+          <About />
+        </Container>
+      </section>
+
+      <section className="projects-section">
+        <Container className="container-box rounded">
+          <Projects />
+        </Container>
+      </section>
+    </>
+  );
 };
 
 export default App;
