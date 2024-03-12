@@ -1,10 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import spotifyParticlesGif from "../assets/img/projects/picture/spotify_song.gif";
-import spotifySongChangeGif from "../assets/img/projects/picture/spotify_songchange.gif";
-import spotifyPlaylistGif from "../assets/img/projects/picture/spotify_playlist.gif";
-import spotifyLyricsGif from "../assets/img/projects/picture/spotify_lyrics.gif";
+import spotify1 from "../assets/img/projects/picture/spotify1.png";
+import spotify2 from "../assets/img/projects/picture/spotify2.png";
+import spotify3 from "../assets/img/projects/picture/spotify3.png";
+import spotify4 from "../assets/img/projects/picture/spotify4.png";
 
 import { makeStyles } from "@mui/styles";
 
@@ -25,20 +25,20 @@ export default function SpotifyCarousel() {
 
   const projectData = [
     {
-      image: spotifySongChangeGif,
+      image: spotify1,
       caption: "Dynamic background color",
     },
     {
-      image: spotifyLyricsGif,
+      image: spotify2,
       caption: "Lyrics display view",
     },
     {
-      image: spotifyPlaylistGif,
-      caption: "Playlist Selection",
+      image: spotify3,
+      caption: "Particle Effects",
     },
     {
-      image: spotifyParticlesGif,
-      caption: "Particle Effects",
+      image: spotify4,
+      caption: "Playlist Selection",
     },
   ];
 

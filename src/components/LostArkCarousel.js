@@ -1,10 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Image1 from "../assets/img/projects/picture/lostark1.JPG";
-import Image5 from "../assets/img/projects/picture/lostark5.JPG";
-
-import loadBuildGif from "../assets/img/projects/picture/lostark_loadbuild.gif";
-import dragGif from "../assets/img/projects/picture/lostark_drag.gif";
+import Image1 from "../assets/img/projects/picture/lostark1.png";
+import Image2 from "../assets/img/projects/picture/lostark2.png";
+import Image3 from "../assets/img/projects/picture/lostark3.png";
+import Image5 from "../assets/img/projects/picture/lostark4.png";
 
 import { makeStyles } from "@mui/styles";
 
@@ -25,12 +24,12 @@ export default function LostArkCarousel() {
 
   const projectData = [
     {
-      image: loadBuildGif,
-      caption: "Load saved builds",
+      image: Image2,
+      caption: "Create builds",
     },
     {
-      image: dragGif,
-      caption: "Drag and Drop abilities",
+      image: Image3,
+      caption: "Save and load builds",
     },
     {
       image: Image1,
