@@ -84,7 +84,7 @@ export default function Projects() {
             </div>
             <div className="btn">
               <a
-                href="https://github.com/anthonychian/spotifyapp"
+                href="https://github.com/anthonychian/shadowverse-client"
                 target="_blank"
                 rel="noopener noreferrer"
               >
