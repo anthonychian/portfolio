@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import shadowverseHome from "../assets/img/projects/picture/shadowverse1.jpg";
-import shadowverseView from "../assets/img/projects/picture/shadowverse2.jpg";
-import shadowverseField from "../assets/img/projects/picture/shadowverse3.jpg";
+import shadowverseHome from "../assets/img/projects/picture/shadowverse1.JPG";
+import shadowverseView from "../assets/img/projects/picture/shadowverse2.JPG";
+import shadowverseField from "../assets/img/projects/picture/shadowverse3.JPG";
 
 import { makeStyles } from "@mui/styles";
 
