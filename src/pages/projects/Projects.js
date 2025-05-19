@@ -73,7 +73,7 @@ export default function Projects() {
           <div className="pb-5 projectbuttons">
             <div className="btn">
               <a
-                href="https://shadowverse-client.vercel.app/"
+                href="https://sveclient.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

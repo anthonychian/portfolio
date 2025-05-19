@@ -1,10 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import shadowverseHome from "../assets/img/projects/picture/shadowverse0.png";
-import shadowverseField from "../assets/img/projects/picture/shadowverse1.png";
-import shadowverseView from "../assets/img/projects/picture/shadowverse2.png";
-import shadowverseDeck from "../assets/img/projects/picture/shadowverse3.png";
+import shadowverseHome from "../assets/img/projects/picture/shadowverse1.jpg";
+import shadowverseField from "../assets/img/projects/picture/shadowverse2.jpg";
+import shadowverseView from "../assets/img/projects/picture/shadowverse3.jpg";
 
 import { makeStyles } from "@mui/styles";
 
@@ -31,10 +30,6 @@ export default function ShadowverseCarousel() {
     {
       image: shadowverseView,
       caption: "View Card",
-    },
-    {
-      image: shadowverseDeck,
-      caption: "Deck Creation",
     },
     {
       image: shadowverseField,
