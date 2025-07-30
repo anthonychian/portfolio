@@ -109,17 +109,6 @@ export default function Projects() {
           <div className="pb-5 projectbuttons">
             <div className="btn">
               <a
-                href="https://lostark-skills.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="m-2" variant="outline-primary">
-                  Demo
-                </Button>
-              </a>
-            </div>
-            <div className="btn">
-              <a
                 href="https://github.com/anthonychian/lostark"
                 target="_blank"
                 rel="noopener noreferrer"
