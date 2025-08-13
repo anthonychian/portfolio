@@ -146,6 +146,17 @@ export default function Projects() {
               </a>
             </div>
           </div>
+          <div className="btn">
+            <a
+              href="https://genshin-database.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="m-2" variant="outline-primary">
+                Demo
+              </Button>
+            </a>
+          </div>
         </section>
         <section className="blogProject">
           <BlogCarousel />
